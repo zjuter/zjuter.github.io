@@ -37,7 +37,7 @@ if (window.localStorage.getItem('theme-mode') === 'dark')
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div class="loading" style="opacity: 0;"><div class="loadingBar left"></div><div class="loadingBar right"></div></div><main><header class="closed"><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><nav><div class="navItem" id="search-header"><span class="navItemTitle"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></span></div><div class="navItem" id="search-holder"></div><div class="search-popup"><div id="search-result"></div></div><ol class="navContent"><li class="navItem"><a class="navBlock" href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem" matchdata="categories,tags"><a class="navBlock" href="/archives/"><span class="navItemTitle">Archives</span></a></li><li class="navItem"><a class="navBlock" href="/Links/"><span class="navItemTitle">Links</span></a></li></ol></nav></header><article><div id="post-bg"><div id="post-title"><h1>stm32笔记2（不定更新 ）</h1><div id="post-info"><span>文章发布时间: <div class="control"><time datetime="2024-02-01T11:13:43.000Z" id="date"> 2024-02-01</time></div></span><br><span>最后更新时间: <div class="control"><time datetime="2024-02-14T09:10:20.079Z" id="updated"> 2024-02-14</time></div></span><br><span>文章总字数: <div class="control">1.8k</div></span><br><span>预计阅读时间: <div class="control">7 分钟</div></span></div></div><hr><div id="post-content"><h1 id="STM32学习笔记"><a href="#STM32学习笔记" class="headerlink" title="STM32学习笔记"></a>STM32学习笔记</h1><p>这个笔记是基于HAL库的，跟随正中电子教程学习。</p>
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div class="loading" style="opacity: 0;"><div class="loadingBar left"></div><div class="loadingBar right"></div></div><main><header class="closed"><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><nav><div class="navItem" id="search-header"><span class="navItemTitle"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></span></div><div class="navItem" id="search-holder"></div><div class="search-popup"><div id="search-result"></div></div><ol class="navContent"><li class="navItem"><a class="navBlock" href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem" matchdata="categories,tags"><a class="navBlock" href="/archives/"><span class="navItemTitle">Archives</span></a></li><li class="navItem"><a class="navBlock" href="/Links/"><span class="navItemTitle">Links</span></a></li></ol></nav></header><article><div id="post-bg"><div id="post-title"><h1>stm32笔记2（不定更新 ）</h1><div id="post-info"><span>文章发布时间: <div class="control"><time datetime="2024-02-01T11:13:43.000Z" id="date"> 2024-02-01</time></div></span><br><span>最后更新时间: <div class="control"><time datetime="2024-02-15T07:47:18.713Z" id="updated"> 2024-02-15</time></div></span><br><span>文章总字数: <div class="control">3k</div></span><br><span>预计阅读时间: <div class="control">12 分钟</div></span></div></div><hr><div id="post-content"><h1 id="STM32学习笔记"><a href="#STM32学习笔记" class="headerlink" title="STM32学习笔记"></a>STM32学习笔记</h1><p>这个笔记是基于HAL库的，跟随正中电子教程学习。</p>
 <h2 id="单片机简介"><a href="#单片机简介" class="headerlink" title="单片机简介"></a>单片机简介</h2><h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><p>体积小，功耗低，集成度高，使用方便，拓展灵活</p>
 <h2 id="Coetex-M"><a href="#Coetex-M" class="headerlink" title="Coetex-M"></a>Coetex-M</h2><h3 id="ARM公司"><a href="#ARM公司" class="headerlink" title="ARM公司"></a>ARM公司</h3><p>ARM只设计内核提供IP，不涉及芯片；</p>
 <table>
@@ -328,7 +328,323 @@ if (window.localStorage.getItem('theme-mode') === 'dark')
 <li>未分配（申请）内存就使用</li>
 <li>越界使用</li>
 </ol>
-<div id="paginator"></div></div><div id="post-footer"><div id="pages" style="justify-content: flex-end"><div class="footer-link" style="width: 50%;right:1px;border-left:1px #fe2 solid"><a href="/2024/01/31/STM32%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%8D%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0%EF%BC%89/">STM32学习笔记1（不定时更新） 上一篇 →</a></div></div></div><details id="reward"><summary>给穷逼一点钱吧！</summary><div><span>支付宝（AliPay）</span><br><img src="/img/Alipay.png"></div><div><span>微信（WeiChat）</span><br><img src="/img/WeChat.png"></div></details><div id="comments"><div class="selector"><button class="valine-sel"></button><button class="gitalk-sel"></button></div><div id="valine"></div><div id="gitalk"></div></div></div><div class="bottom-btn"><div><a class="i-top" id="to-top" onClick="scrolls.scrolltop();" title="回到顶部" style="opacity: 0; display: none;">∧ </a><a class="i-index" id="to-index" href="#toc-div" title="文章目录">≡</a><a class="i-color" id="color-mode" onClick="colorMode.change()" title="切换主题"></a></div></div></article><aside><div id="about"><a href="/" id="logo"><img src="https://ak.hypergryph.com/assets/index/images/ak/pc/faction/4.png" alt="Logo"></a><h1 id="Dr"><a href="/">Passenger</a></h1><div id="description"><p></p></div><div id="social-links"><a class="social" target="_blank" rel="noopener" href="https://github.com/zjuter"><i class="fab fa-github" alt="GitHub"></i></a><a class="social" href="mailto:setupcard@foxmail.com"><i class="fa fa-envelope" alt="E-Mail"></i></a><a class="social" target="_blank" rel="noopener" href="https://space.bilibili.com/504270070?spm_id_from=333.1007.0.0"><i class="fa-brands fa-bilibili" alt="BiliBili"></i></a></div></div><div id="aside-block"><div id="toc-div"><h1>目录</h1><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#STM32%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"><span class="toc-number">1.</span> <span class="toc-text">STM32学习笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%95%E7%89%87%E6%9C%BA%E7%AE%80%E4%BB%8B"><span class="toc-number">1.1.</span> <span class="toc-text">单片机简介</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E7%82%B9"><span class="toc-number">1.1.1.</span> <span class="toc-text">特点</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Coetex-M"><span class="toc-number">1.2.</span> <span class="toc-text">Coetex-M</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ARM%E5%85%AC%E5%8F%B8"><span class="toc-number">1.2.1.</span> <span class="toc-text">ARM公司</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Cortex-M3-4-7-%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.2.2.</span> <span class="toc-text">Cortex-M3&#x2F;4&#x2F;7 介绍</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9D%E8%AF%86STM32"><span class="toc-number">1.3.</span> <span class="toc-text">初识STM32</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#STM32%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99"><span class="toc-number">1.3.1.</span> <span class="toc-text">STM32命名规则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#STM%E5%BC%95%E8%84%9A%E5%88%86%E5%B8%83%E8%A7%84%E5%88%99"><span class="toc-number">1.3.2.</span> <span class="toc-text">STM引脚分布规则</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#STM32%E5%BC%95%E8%84%9A%E7%B1%BB%E5%9E%8B"><span class="toc-number">1.3.2.1.</span> <span class="toc-text">STM32引脚类型</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BD%AF%E4%BB%B6%E5%8F%8A%E9%A9%B1%E5%8A%A8"><span class="toc-number">1.4.</span> <span class="toc-text">软件及驱动</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85MDK%E5%92%8C%E5%99%A8%E4%BB%B6%E6%94%AF%E6%8C%81%E5%8C%85"><span class="toc-number">1.4.1.</span> <span class="toc-text">安装MDK和器件支持包</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E4%BB%BF%E7%9C%9F%E5%99%A8%E9%A9%B1%E5%8A%A8"><span class="toc-number">1.4.2.</span> <span class="toc-text">安装仿真器驱动</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85CH340-USB%E8%99%9A%E6%8B%9F%E4%B8%B2%E5%8F%A3%E9%A9%B1%E5%8A%A8"><span class="toc-number">1.4.3.</span> <span class="toc-text">安装CH340 USB虚拟串口驱动</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#STM32%E5%88%9D%E4%BD%93%E9%AA%8C"><span class="toc-number">1.5.</span> <span class="toc-text">STM32初体验</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8MDK5%E7%BC%96%E8%AF%91%E5%8E%86%E7%A8%8B"><span class="toc-number">1.5.1.</span> <span class="toc-text">使用MDK5编译历程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%B2%E5%8F%A3%E4%B8%8B%E8%BD%BD%E7%A8%8B%E5%BA%8F"><span class="toc-number">1.5.2.</span> <span class="toc-text">串口下载程序</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E9%A1%BB%E7%9F%A5"><span class="toc-number">1.5.2.1.</span> <span class="toc-text">下载须知</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%A1%AC%E4%BB%B6%E8%BF%9E%E6%8E%A5"><span class="toc-number">1.5.2.2.</span> <span class="toc-text">硬件连接</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ATK-XISP-exe%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7%E9%85%8D%E7%BD%AE"><span class="toc-number">1.5.2.3.</span> <span class="toc-text">ATK-XISP.exe下载工具配置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#STM32%E5%90%AF%E5%8A%A8%E6%A8%A1%E5%BC%8F%EF%BC%88M3%E5%92%8CM4%EF%BC%89"><span class="toc-number">1.5.2.4.</span> <span class="toc-text">STM32启动模式（M3和M4）</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#C%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E7%82%B9%E8%A1%A5%E5%85%85"><span class="toc-number">1.6.</span> <span class="toc-text">C语言知识点补充</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%8D%E6%93%8D%E4%BD%9C"><span class="toc-number">1.6.1.</span> <span class="toc-text">位操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%8F%E5%AE%9A%E4%B9%89"><span class="toc-number">1.6.2.</span> <span class="toc-text">宏定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%E7%BC%96%E8%AF%91"><span class="toc-number">1.6.3.</span> <span class="toc-text">条件编译</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#extern%E5%A3%B0%E6%98%8E"><span class="toc-number">1.6.4.</span> <span class="toc-text">extern声明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B%E5%88%AB%E5%90%8D%EF%BC%88typedef%EF%BC%89"><span class="toc-number">1.6.5.</span> <span class="toc-text">类型别名（typedef）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%93%E6%9E%84%E4%BD%93"><span class="toc-number">1.6.6.</span> <span class="toc-text">结构体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%87%E9%92%88"><span class="toc-number">1.6.7.</span> <span class="toc-text">指针</span></a></li></ol></li></ol></li></ol></div></div><footer><nobr><span class="icp-title">ICP</span><a class="icp-content" target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">备案个屁</a></nobr><br><nobr>构建自 <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a></nobr><wbr><nobr> 使用主题 <a target="_blank" rel="noopener" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknights</a></nobr><wbr><nobr> 主题作者 <a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></nobr></footer></aside></main><canvas id="canvas-dust"></canvas><script src="/js/search.js"></script><script src="/js/arknights.js"></script><script src="//unpkg.com/lightgallery@2.7.1/lightgallery.min.js"></script><script src="//unpkg.com/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script><script src="//unpkg.com/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script><script src="/lib/encrypt/hbe.js"></script><script src="/js/pjax.js"></script><script class="pjax-js">reset= () => {new Valine({
+<h2 id="STM基础知识"><a href="#STM基础知识" class="headerlink" title="STM基础知识"></a>STM基础知识</h2><h3 id="STM32系统框架"><a href="#STM32系统框架" class="headerlink" title="STM32系统框架"></a>STM32系统框架</h3><h3 id="F1系统框架"><a href="#F1系统框架" class="headerlink" title="F1系统框架"></a>F1系统框架</h3><p>4个主动单元+4个被动单元</p>
+<table>
+<thead>
+<tr>
+<th align="center">主动单元</th>
+<th align="center">被动单元</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Cortex M3内核 DCode总线(D-Bus)</td>
+<td align="center">内部FLASH</td>
+</tr>
+<tr>
+<td align="center">Cortex M3内核 系统总线 (S-Bus)</td>
+<td align="center">内部SRAM</td>
+</tr>
+<tr>
+<td align="center">通用DMA1</td>
+<td align="center">FSMC</td>
+</tr>
+<tr>
+<td align="center">通用DMA2</td>
+<td align="center">AHB到APB的桥，他链接所有APB外设</td>
+</tr>
+</tbody></table>
+<p><em>AHB：高级高性能总线</em><br><em>APB：高级外围总线</em></p>
+<p>再互联型产品中有3个被动5个主动</p>
+<h3 id="STM32选址范围"><a href="#STM32选址范围" class="headerlink" title="STM32选址范围"></a>STM32选址范围</h3><p>STM32寻址大小：2^32&#x3D;4G（字节）<br>STM32寻址范围：0x0000 0000~0xFFFF FFFF</p>
+<h3 id="存储器映射"><a href="#存储器映射" class="headerlink" title="存储器映射"></a>存储器映射</h3><p>存储器是可以存储数据的设备，本身无地址信息，对存储器分配地址的过程称为存储器映射</p>
+<h3 id="存储器功能划分（F1为例）"><a href="#存储器功能划分（F1为例）" class="headerlink" title="存储器功能划分（F1为例）"></a>存储器功能划分（F1为例）</h3><p>ST将4GB（2^32）地址空间分成8块</p>
+<table>
+<thead>
+<tr>
+<th align="center">存储块</th>
+<th align="center">功能</th>
+<th align="center">地址范围</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Block0</td>
+<td align="center">Code(FLASH)</td>
+<td align="center">0x0000 0000 ~ 0x1FFF FFFF(512MB)</td>
+</tr>
+<tr>
+<td align="center">Block1</td>
+<td align="center">SRAM</td>
+<td align="center">0x2000 0000 ~ 0x3FFF FFFF(512MB)</td>
+</tr>
+<tr>
+<td align="center">Block2</td>
+<td align="center">片上外设</td>
+<td align="center">0x4000 0000 ~ 0x5FFF FFFF(512MB)</td>
+</tr>
+<tr>
+<td align="center">Block3</td>
+<td align="center">FSMC Blank1&amp;2</td>
+<td align="center">0x6000 0000 ~ 0x7FFF FFFF(512MB)</td>
+</tr>
+<tr>
+<td align="center">Block4</td>
+<td align="center">FSMC Blanc3&amp;4</td>
+<td align="center">0x8000 0000 ~ 0x9FFF FFFF(512MB)</td>
+</tr>
+<tr>
+<td align="center">Block5</td>
+<td align="center">FSMC寄存器</td>
+<td align="center">0xA000 0000 ~ 0xBFFF FFFF(512MB)</td>
+</tr>
+<tr>
+<td align="center">Block6</td>
+<td align="center">没用到</td>
+<td align="center">0xC000 0000 ~ 0xDFFF FFFF(512MB)</td>
+</tr>
+<tr>
+<td align="center">Block7</td>
+<td align="center">Cortex M3内部外设</td>
+<td align="center">0xE000 0000 ~ 0xFFFF FFFF(512MB)</td>
+</tr>
+</tbody></table>
+<h4 id="Block0（FLASH）功能划分："><a href="#Block0（FLASH）功能划分：" class="headerlink" title="Block0（FLASH）功能划分："></a>Block0（FLASH）功能划分：</h4><table>
+<thead>
+<tr>
+<th align="center">功能</th>
+<th align="center">地址范围</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">FLASH或系统存储器别名区</td>
+<td align="center">0x0000 0000~0x0007 FFFF(512KB)</td>
+</tr>
+<tr>
+<td align="center">保留</td>
+<td align="center">0x0008 0000~0x07FF FFFF</td>
+</tr>
+<tr>
+<td align="center">用户FLASH，用于存储用户代码</td>
+<td align="center">0x0800 0000~0x0807 FFFF(521KB)</td>
+</tr>
+<tr>
+<td align="center">保留</td>
+<td align="center">0x0808 0000~0x1FFF EFFF</td>
+</tr>
+<tr>
+<td align="center">系统存储器，存储出厂Bootloader</td>
+<td align="center">0x1FFF F000~0x1FFF F7FF(2KB)</td>
+</tr>
+<tr>
+<td align="center">选项字节，配置读保护等</td>
+<td align="center">0x1FFF F800~0x1FFF F80F(16B)</td>
+</tr>
+<tr>
+<td align="center">保留</td>
+<td align="center">0x1FFF F810~0x1FFF FFFF</td>
+</tr>
+</tbody></table>
+<h4 id="Block1-SRAM-功能划分"><a href="#Block1-SRAM-功能划分" class="headerlink" title="Block1(SRAM)功能划分"></a>Block1(SRAM)功能划分</h4><table>
+<thead>
+<tr>
+<th align="center">功能</th>
+<th align="center">地址范围</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">SRAM</td>
+<td align="center">0x2000 0000~0x2000 FFFF(64KB)</td>
+</tr>
+<tr>
+<td align="center">保留</td>
+<td align="center">0x2001 0000~0x3FFF FFFF</td>
+</tr>
+</tbody></table>
+<h4 id="Block2-外设-功能划分"><a href="#Block2-外设-功能划分" class="headerlink" title="Block2(外设)功能划分"></a>Block2(外设)功能划分</h4><table>
+<thead>
+<tr>
+<th align="center">功能</th>
+<th align="center">地址范围</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">APB1总线外设</td>
+<td align="center">0x4000 0000~0x4000 77FF</td>
+</tr>
+<tr>
+<td align="center">保留</td>
+<td align="center">0x4000 7800~0x4000 FFFF</td>
+</tr>
+<tr>
+<td align="center">APB2总线外设</td>
+<td align="center">0x4001 0000~0x4000 3FFF</td>
+</tr>
+<tr>
+<td align="center">保留</td>
+<td align="center">0x4001 4000~0x4001 7FFF</td>
+</tr>
+<tr>
+<td align="center">AHB总线外设</td>
+<td align="center">0x4001 8000~0x4002 33FF</td>
+</tr>
+<tr>
+<td align="center">保留</td>
+<td align="center">0x4002 3400~0x5FFF FFFF</td>
+</tr>
+</tbody></table>
+<h3 id="寄存器"><a href="#寄存器" class="headerlink" title="寄存器"></a>寄存器</h3><p>寄存器是单片机内部一种特殊的内存，可以实现对单片机各功能的控制</p>
+<h4 id="STM32寄存器分类"><a href="#STM32寄存器分类" class="headerlink" title="STM32寄存器分类"></a>STM32寄存器分类</h4><p>内核寄存器：内核相关寄存器，中断寄存器，Sys Tick寄存器，内存保护寄存器，调试系统寄存器<br>外设寄存器：UART、IIC、SPI等</p>
+<h4 id="寄存器映射"><a href="#寄存器映射" class="headerlink" title="寄存器映射"></a>寄存器映射</h4><p>给寄存器命名的过程叫做寄存器映射</p>
+<p>例：0x4001080C–映射–&gt;GPIOA_ODR</p>
+<p>直接映射：<br><code>*(unsigned int*)(0x4001 080C) = 0xFFFF;</code></p>
+<p>定义名字之后映射：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">define</span> GPIOA_ODR   *(unsigned int*)(0x4001080C)</span><br>GPIOA_ODR = <span class="hljs-number">0xFFFF</span>;<br></code></pre></td></tr></table></figure>
+
+<h4 id="寄存器描述解读"><a href="#寄存器描述解读" class="headerlink" title="寄存器描述解读"></a>寄存器描述解读</h4><p>要点：</p>
+<ol>
+<li>寄存器名字</li>
+<li>偏移量及复位值</li>
+<li>寄存器位表</li>
+<li>位功能描述</li>
+</ol>
+<h4 id="寄存器地址计算"><a href="#寄存器地址计算" class="headerlink" title="寄存器地址计算"></a>寄存器地址计算</h4><p>为方便编写代码及使用，我们将寄存器地址分为三部分</p>
+<ol>
+<li>总线基地址(BUS_BASE_ADDR)</li>
+<li>外设基于总线基地址的偏移量(PERIPH_OFFSET)</li>
+<li>寄存器相对外设基地址的偏移量(REG_OFFSET)</li>
+</ol>
+<p><em>寄存器地址&#x3D;BUS_BASE_ADDR + PERIPH_OFFSET + REG_OFFSET</em></p>
+<h5 id="总线基地址"><a href="#总线基地址" class="headerlink" title="总线基地址"></a>总线基地址</h5><table>
+<thead>
+<tr>
+<th align="center">总线</th>
+<th align="center">基地址</th>
+<th align="center">偏移量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">APB1</td>
+<td align="center">0x4000 0000</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">APB2</td>
+<td align="center">0x4001 0000</td>
+<td align="center">0x1 0000</td>
+</tr>
+<tr>
+<td align="center">AHB</td>
+<td align="center">0x4001 8000</td>
+<td align="center">0x1 8000</td>
+</tr>
+</tbody></table>
+<p>APB1总线的基地址也叫做外设基地址(PERIPH_BASE)<br>此表的偏移量是相对外设基地址来说的</p>
+<h5 id="GPIO基地址及偏移量"><a href="#GPIO基地址及偏移量" class="headerlink" title="GPIO基地址及偏移量"></a>GPIO基地址及偏移量</h5><table>
+<thead>
+<tr>
+<th align="center">外设</th>
+<th align="center">基地址</th>
+<th align="center">偏移量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">GPIOA</td>
+<td align="center">0x4001 0800</td>
+<td align="center">0x800</td>
+</tr>
+<tr>
+<td align="center">GPIOB</td>
+<td align="center">0x4001 0C00</td>
+<td align="center">0xC00</td>
+</tr>
+<tr>
+<td align="center">GPIOC</td>
+<td align="center">0x4001 1000</td>
+<td align="center">0x1000</td>
+</tr>
+<tr>
+<td align="center">GPIOD</td>
+<td align="center">0x4001 1400</td>
+<td align="center">0x1400</td>
+</tr>
+<tr>
+<td align="center">GPIOE</td>
+<td align="center">0x4001 1800</td>
+<td align="center">0x1800</td>
+</tr>
+<tr>
+<td align="center">GPIOF</td>
+<td align="center">0x4001 1C00</td>
+<td align="center">0x1C00</td>
+</tr>
+<tr>
+<td align="center">GPIOG</td>
+<td align="center">0x4001 2000</td>
+<td align="center">0x2000</td>
+</tr>
+</tbody></table>
+<p>此表的偏移量是相对与APB2外设基地址(APB2PERIPH_BASE)来说的</p>
+<h5 id="GPIOA外设基地址及偏移量"><a href="#GPIOA外设基地址及偏移量" class="headerlink" title="GPIOA外设基地址及偏移量"></a>GPIOA外设基地址及偏移量</h5><table>
+<thead>
+<tr>
+<th align="center">寄存器</th>
+<th align="center">地址</th>
+<th align="center">偏移量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">GPIOA_CRL</td>
+<td align="center">0X4001 0800</td>
+<td align="center">0X00</td>
+</tr>
+<tr>
+<td align="center">GPIOA_CRH</td>
+<td align="center">0X4001 0804</td>
+<td align="center">0X04</td>
+</tr>
+<tr>
+<td align="center">GPIOA_IDR</td>
+<td align="center">0X4001 0808</td>
+<td align="center">0X08</td>
+</tr>
+<tr>
+<td align="center">GPIOA_ODR</td>
+<td align="center">0X4001 080C</td>
+<td align="center">0X0C</td>
+</tr>
+<tr>
+<td align="center">GPIOA_BSRR</td>
+<td align="center">0X4001 0810</td>
+<td align="center">0X10</td>
+</tr>
+<tr>
+<td align="center">GPIOA_BRR</td>
+<td align="center">0X4001 0814</td>
+<td align="center">0X14</td>
+</tr>
+<tr>
+<td align="center">GPIOA_LCKR</td>
+<td align="center">0X4001 0818</td>
+<td align="center">0X18</td>
+</tr>
+</tbody></table>
+<p>此表的偏移量是相对与GPIOA外设基地址(GPIO_BASE)来说的</p>
+<p>寄存器地址计算举例（GPIOA_ODR）：</p>
+<ol>
+<li>获取外设挂载在那个总线（查系统结构图）</li>
+<li>获取总线基地址，APB2总线基地址：0x4001 0000</li>
+<li>获取外设偏移量，GPIOA相对APB2总线偏移量：0x800</li>
+<li>获取寄存器地址偏移量，ORD相对GPIOA外设基地址偏移量是0x0C</li>
+</ol>
+<p>寄存器地址&#x3D;BUS_BASE_ADDR + PERIPH_OFFSET + REG_OFFSET<br>GPIOA_ODR&#x3D;0X4001 0000 +0X800 + 0X0C &#x3D; 0X4001 080C</p>
+<p>利用结构体，我们可以很方便的完成对寄存器的映射</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs C"><span class="hljs-keyword">typedef</span> <span class="hljs-class"><span class="hljs-keyword">struct</span></span><br><span class="hljs-class">&#123;</span><br>    __IO <span class="hljs-type">uint32_t</span> CRL;<br>    __IO <span class="hljs-type">uint32_t</span> CRH;<br>    __IO <span class="hljs-type">uint32_t</span> IDR;<br>    __IO <span class="hljs-type">uint32_t</span> ODR;<br>    __IO <span class="hljs-type">uint32_t</span> BSRR;<br>    __IO <span class="hljs-type">uint32_t</span> BRR;<br>    __IO <span class="hljs-type">uint32_t</span> LCKR;<br>&#125;GPIO_TypeDef;<br></code></pre></td></tr></table></figure>
+<p><em>注：GPIOA_BASE: 0x4001 0800</em></p>
+<p>由上面内容知道，GPIOA内每个寄存器偏移量都是0x04，uint_32大小刚好为0x04，能很好适配，利用这种方法可以方便的一次性配置一整个GPIO口</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">define</span> GPIOA ((GPIO_TypeDef*)GPIOA_BASE)</span><br></code></pre></td></tr></table></figure>
+<p>通过这个代码就可以一次性配置完整个GPIOA</p>
+<p>此时：<br>&amp;GPIOA-&gt;CRL: 0x4001 0800<br>&amp;GPIOA_CRH: 0x4001 0804<br>……</p>
+<p>配置完之后实际应用只需要<code>GPIOA-&gt;ODR = 0xFFFF</code>就完成对GPIOA下的ODR的写入</p>
+<div id="paginator"></div></div><div id="post-footer"><div id="pages" style="justify-content: flex-end"><div class="footer-link" style="width: 50%;right:1px;border-left:1px #fe2 solid"><a href="/2024/01/31/STM32%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%8D%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0%EF%BC%89/">STM32学习笔记1（不定时更新） 上一篇 →</a></div></div></div><details id="reward"><summary>给穷逼一点钱吧！</summary><div><span>支付宝（AliPay）</span><br><img src="/img/Alipay.png"></div><div><span>微信（WeiChat）</span><br><img src="/img/WeChat.png"></div></details><div id="comments"><div class="selector"><button class="valine-sel"></button><button class="gitalk-sel"></button></div><div id="valine"></div><div id="gitalk"></div></div></div><div class="bottom-btn"><div><a class="i-top" id="to-top" onClick="scrolls.scrolltop();" title="回到顶部" style="opacity: 0; display: none;">∧ </a><a class="i-index" id="to-index" href="#toc-div" title="文章目录">≡</a><a class="i-color" id="color-mode" onClick="colorMode.change()" title="切换主题"></a></div></div></article><aside><div id="about"><a href="/" id="logo"><img src="https://ak.hypergryph.com/assets/index/images/ak/pc/faction/4.png" alt="Logo"></a><h1 id="Dr"><a href="/">Passenger</a></h1><div id="description"><p></p></div><div id="social-links"><a class="social" target="_blank" rel="noopener" href="https://github.com/zjuter"><i class="fab fa-github" alt="GitHub"></i></a><a class="social" href="mailto:setupcard@foxmail.com"><i class="fa fa-envelope" alt="E-Mail"></i></a><a class="social" target="_blank" rel="noopener" href="https://space.bilibili.com/504270070?spm_id_from=333.1007.0.0"><i class="fa-brands fa-bilibili" alt="BiliBili"></i></a></div></div><div id="aside-block"><div id="toc-div"><h1>目录</h1><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#STM32%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"><span class="toc-number">1.</span> <span class="toc-text">STM32学习笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%95%E7%89%87%E6%9C%BA%E7%AE%80%E4%BB%8B"><span class="toc-number">1.1.</span> <span class="toc-text">单片机简介</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E7%82%B9"><span class="toc-number">1.1.1.</span> <span class="toc-text">特点</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Coetex-M"><span class="toc-number">1.2.</span> <span class="toc-text">Coetex-M</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ARM%E5%85%AC%E5%8F%B8"><span class="toc-number">1.2.1.</span> <span class="toc-text">ARM公司</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Cortex-M3-4-7-%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.2.2.</span> <span class="toc-text">Cortex-M3&#x2F;4&#x2F;7 介绍</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9D%E8%AF%86STM32"><span class="toc-number">1.3.</span> <span class="toc-text">初识STM32</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#STM32%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99"><span class="toc-number">1.3.1.</span> <span class="toc-text">STM32命名规则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#STM%E5%BC%95%E8%84%9A%E5%88%86%E5%B8%83%E8%A7%84%E5%88%99"><span class="toc-number">1.3.2.</span> <span class="toc-text">STM引脚分布规则</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#STM32%E5%BC%95%E8%84%9A%E7%B1%BB%E5%9E%8B"><span class="toc-number">1.3.2.1.</span> <span class="toc-text">STM32引脚类型</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BD%AF%E4%BB%B6%E5%8F%8A%E9%A9%B1%E5%8A%A8"><span class="toc-number">1.4.</span> <span class="toc-text">软件及驱动</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85MDK%E5%92%8C%E5%99%A8%E4%BB%B6%E6%94%AF%E6%8C%81%E5%8C%85"><span class="toc-number">1.4.1.</span> <span class="toc-text">安装MDK和器件支持包</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E4%BB%BF%E7%9C%9F%E5%99%A8%E9%A9%B1%E5%8A%A8"><span class="toc-number">1.4.2.</span> <span class="toc-text">安装仿真器驱动</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85CH340-USB%E8%99%9A%E6%8B%9F%E4%B8%B2%E5%8F%A3%E9%A9%B1%E5%8A%A8"><span class="toc-number">1.4.3.</span> <span class="toc-text">安装CH340 USB虚拟串口驱动</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#STM32%E5%88%9D%E4%BD%93%E9%AA%8C"><span class="toc-number">1.5.</span> <span class="toc-text">STM32初体验</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8MDK5%E7%BC%96%E8%AF%91%E5%8E%86%E7%A8%8B"><span class="toc-number">1.5.1.</span> <span class="toc-text">使用MDK5编译历程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%B2%E5%8F%A3%E4%B8%8B%E8%BD%BD%E7%A8%8B%E5%BA%8F"><span class="toc-number">1.5.2.</span> <span class="toc-text">串口下载程序</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E9%A1%BB%E7%9F%A5"><span class="toc-number">1.5.2.1.</span> <span class="toc-text">下载须知</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%A1%AC%E4%BB%B6%E8%BF%9E%E6%8E%A5"><span class="toc-number">1.5.2.2.</span> <span class="toc-text">硬件连接</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ATK-XISP-exe%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7%E9%85%8D%E7%BD%AE"><span class="toc-number">1.5.2.3.</span> <span class="toc-text">ATK-XISP.exe下载工具配置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#STM32%E5%90%AF%E5%8A%A8%E6%A8%A1%E5%BC%8F%EF%BC%88M3%E5%92%8CM4%EF%BC%89"><span class="toc-number">1.5.2.4.</span> <span class="toc-text">STM32启动模式（M3和M4）</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#C%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E7%82%B9%E8%A1%A5%E5%85%85"><span class="toc-number">1.6.</span> <span class="toc-text">C语言知识点补充</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%8D%E6%93%8D%E4%BD%9C"><span class="toc-number">1.6.1.</span> <span class="toc-text">位操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%8F%E5%AE%9A%E4%B9%89"><span class="toc-number">1.6.2.</span> <span class="toc-text">宏定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%E7%BC%96%E8%AF%91"><span class="toc-number">1.6.3.</span> <span class="toc-text">条件编译</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#extern%E5%A3%B0%E6%98%8E"><span class="toc-number">1.6.4.</span> <span class="toc-text">extern声明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E5%9E%8B%E5%88%AB%E5%90%8D%EF%BC%88typedef%EF%BC%89"><span class="toc-number">1.6.5.</span> <span class="toc-text">类型别名（typedef）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%93%E6%9E%84%E4%BD%93"><span class="toc-number">1.6.6.</span> <span class="toc-text">结构体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%87%E9%92%88"><span class="toc-number">1.6.7.</span> <span class="toc-text">指针</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#STM%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86"><span class="toc-number">1.7.</span> <span class="toc-text">STM基础知识</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#STM32%E7%B3%BB%E7%BB%9F%E6%A1%86%E6%9E%B6"><span class="toc-number">1.7.1.</span> <span class="toc-text">STM32系统框架</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#F1%E7%B3%BB%E7%BB%9F%E6%A1%86%E6%9E%B6"><span class="toc-number">1.7.2.</span> <span class="toc-text">F1系统框架</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#STM32%E9%80%89%E5%9D%80%E8%8C%83%E5%9B%B4"><span class="toc-number">1.7.3.</span> <span class="toc-text">STM32选址范围</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%82%A8%E5%99%A8%E6%98%A0%E5%B0%84"><span class="toc-number">1.7.4.</span> <span class="toc-text">存储器映射</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%82%A8%E5%99%A8%E5%8A%9F%E8%83%BD%E5%88%92%E5%88%86%EF%BC%88F1%E4%B8%BA%E4%BE%8B%EF%BC%89"><span class="toc-number">1.7.5.</span> <span class="toc-text">存储器功能划分（F1为例）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Block0%EF%BC%88FLASH%EF%BC%89%E5%8A%9F%E8%83%BD%E5%88%92%E5%88%86%EF%BC%9A"><span class="toc-number">1.7.5.1.</span> <span class="toc-text">Block0（FLASH）功能划分：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Block1-SRAM-%E5%8A%9F%E8%83%BD%E5%88%92%E5%88%86"><span class="toc-number">1.7.5.2.</span> <span class="toc-text">Block1(SRAM)功能划分</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Block2-%E5%A4%96%E8%AE%BE-%E5%8A%9F%E8%83%BD%E5%88%92%E5%88%86"><span class="toc-number">1.7.5.3.</span> <span class="toc-text">Block2(外设)功能划分</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%84%E5%AD%98%E5%99%A8"><span class="toc-number">1.7.6.</span> <span class="toc-text">寄存器</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#STM32%E5%AF%84%E5%AD%98%E5%99%A8%E5%88%86%E7%B1%BB"><span class="toc-number">1.7.6.1.</span> <span class="toc-text">STM32寄存器分类</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%84%E5%AD%98%E5%99%A8%E6%98%A0%E5%B0%84"><span class="toc-number">1.7.6.2.</span> <span class="toc-text">寄存器映射</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%84%E5%AD%98%E5%99%A8%E6%8F%8F%E8%BF%B0%E8%A7%A3%E8%AF%BB"><span class="toc-number">1.7.6.3.</span> <span class="toc-text">寄存器描述解读</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%84%E5%AD%98%E5%99%A8%E5%9C%B0%E5%9D%80%E8%AE%A1%E7%AE%97"><span class="toc-number">1.7.6.4.</span> <span class="toc-text">寄存器地址计算</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%80%BB%E7%BA%BF%E5%9F%BA%E5%9C%B0%E5%9D%80"><span class="toc-number">1.7.6.4.1.</span> <span class="toc-text">总线基地址</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#GPIO%E5%9F%BA%E5%9C%B0%E5%9D%80%E5%8F%8A%E5%81%8F%E7%A7%BB%E9%87%8F"><span class="toc-number">1.7.6.4.2.</span> <span class="toc-text">GPIO基地址及偏移量</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#GPIOA%E5%A4%96%E8%AE%BE%E5%9F%BA%E5%9C%B0%E5%9D%80%E5%8F%8A%E5%81%8F%E7%A7%BB%E9%87%8F"><span class="toc-number">1.7.6.4.3.</span> <span class="toc-text">GPIOA外设基地址及偏移量</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div></div><footer><nobr><span class="icp-title">ICP</span><a class="icp-content" target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">备案个屁</a></nobr><br><nobr>构建自 <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a></nobr><wbr><nobr> 使用主题 <a target="_blank" rel="noopener" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknights</a></nobr><wbr><nobr> 主题作者 <a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></nobr></footer></aside></main><canvas id="canvas-dust"></canvas><script src="/js/search.js"></script><script src="/js/arknights.js"></script><script src="//unpkg.com/lightgallery@2.7.1/lightgallery.min.js"></script><script src="//unpkg.com/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script><script src="//unpkg.com/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script><script src="/lib/encrypt/hbe.js"></script><script src="/js/pjax.js"></script><script class="pjax-js">reset= () => {new Valine({
  el: '#valine'
  , appId: 'BHvvZvlz37DVYtbfOeshm87j-gzGzoHsz'
  , appKey: 'CEhVRTFF2tS30lPvOacrxzSK' , placeholder: '此条评论委托企鹅物流发送'
